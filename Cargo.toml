@@ -1,0 +1,11 @@
+[package]
+name = "ascii-moon-phase"
+version = "0.1.0"
+edition = "2021"
+description = "Render the lunar phase as filled ASCII art (@ light, . dark)."
+license = "MIT"
+repository = "https://github.com/yourname/ascii-moon-phase"
+
+[dependencies]
+time = { version = "0.3", features = ["parsing"] }
+clap = { version = "4", features = ["derive"] }
